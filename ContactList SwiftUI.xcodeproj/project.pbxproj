@@ -11,6 +11,12 @@
 		9349172B2A45A26300FFC99D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349172A2A45A26300FFC99D /* ContentView.swift */; };
 		9349172D2A45A26500FFC99D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9349172C2A45A26500FFC99D /* Assets.xcassets */; };
 		934917302A45A26500FFC99D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9349172F2A45A26500FFC99D /* Preview Assets.xcassets */; };
+		934917372A45A34200FFC99D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934917362A45A34100FFC99D /* Person.swift */; };
+		934917392A45A35900FFC99D /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934917382A45A35900FFC99D /* DataStore.swift */; };
+		9349173B2A4622A000FFC99D /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349173A2A4622A000FFC99D /* ContactsView.swift */; };
+		9349173D2A4622C000FFC99D /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349173C2A4622C000FFC99D /* ContactDetailsView.swift */; };
+		9349173F2A4622D000FFC99D /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349173E2A4622D000FFC99D /* NumbersView.swift */; };
+		934917412A4622F700FFC99D /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934917402A4622F700FFC99D /* ContactRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		9349172A2A45A26300FFC99D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9349172C2A45A26500FFC99D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9349172F2A45A26500FFC99D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		934917362A45A34100FFC99D /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		934917382A45A35900FFC99D /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		9349173A2A4622A000FFC99D /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		9349173C2A4622C000FFC99D /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
+		9349173E2A4622D000FFC99D /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
+		934917402A4622F700FFC99D /* ContactRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,14 @@
 		934917272A45A26300FFC99D /* ContactList SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				934917382A45A35900FFC99D /* DataStore.swift */,
+				934917362A45A34100FFC99D /* Person.swift */,
 				934917282A45A26300FFC99D /* ContactList_SwiftUIApp.swift */,
+				9349173A2A4622A000FFC99D /* ContactsView.swift */,
 				9349172A2A45A26300FFC99D /* ContentView.swift */,
+				9349173C2A4622C000FFC99D /* ContactDetailsView.swift */,
+				9349173E2A4622D000FFC99D /* NumbersView.swift */,
+				934917402A4622F700FFC99D /* ContactRowView.swift */,
 				9349172C2A45A26500FFC99D /* Assets.xcassets */,
 				9349172E2A45A26500FFC99D /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934917372A45A34200FFC99D /* Person.swift in Sources */,
+				934917392A45A35900FFC99D /* DataStore.swift in Sources */,
 				9349172B2A45A26300FFC99D /* ContentView.swift in Sources */,
+				9349173B2A4622A000FFC99D /* ContactsView.swift in Sources */,
+				9349173F2A4622D000FFC99D /* NumbersView.swift in Sources */,
+				9349173D2A4622C000FFC99D /* ContactDetailsView.swift in Sources */,
+				934917412A4622F700FFC99D /* ContactRowView.swift in Sources */,
 				934917292A45A26300FFC99D /* ContactList_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
