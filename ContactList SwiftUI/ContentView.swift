@@ -9,10 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selectedTab: Int = 0
+    let contacts = Person.getContactList()
     
     var body: some View {
         TabView(selection: $selectedTab){
-            ContactsView()
+            ContactsView(contacts: contacts)
                 .tabItem {
                     Image(systemName: "person.3.fill")
                     Text("Contacts")
@@ -21,7 +22,7 @@ struct ContentView: View {
             NumbersView()
                 .tabItem {
                     Image(systemName: "phone.fil")
-                          Text("Contacts")
+                          Text("Numbers")
                 }
                 .tag(1)
         }
