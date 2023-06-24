@@ -10,7 +10,6 @@ import Foundation
 
 struct Person: Identifiable {
     var id = UUID()
-
     let name: String
     let surname: String
     let email: String
@@ -49,9 +48,4 @@ struct Person: Identifiable {
         
         return persons
     }
-}
-
-enum Contacts: String {
-    case phone = "phone"
-    case email = "tray"
 }

@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct ContactsView: View {
+    let contacts: [Person]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(contacts) {contact in
+            NavigationLink(destination: ContactDetailsView(contact: contact)) {
+                Text(contact.fullName)
+            }
+        }
     }
 }
 
 struct ContactsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContactsView()
+        ContactsView(contacts: Person.getContactList())
     }
 }
