@@ -7,11 +7,11 @@
 //
 import SwiftUI
 
-class DataStore: ObservableObject {
+class DataStore {
     
     static let shared = DataStore()
     
-    @Published var names = [
+   let names = [
         "John",
         "Aaron",
         "Tim",
@@ -24,7 +24,7 @@ class DataStore: ObservableObject {
         "Carl"
     ]
     
-    @Published var surnames = [
+     let surnames = [
         "Smith",
         "Dow",
         "Isaacson",
@@ -37,7 +37,7 @@ class DataStore: ObservableObject {
         "Williams"
     ]
     
-    @Published var emails = [
+    let  emails = [
         "jjjj@mail.ru",
         "aaaa@mail.ru",
         "eeee@mail.ru",
@@ -50,7 +50,7 @@ class DataStore: ObservableObject {
         "llll@mail.ru"
     ]
     
-    @Published var phones = [
+    let phones = [
         "745396026",
         "145036843",
         "287185656",
