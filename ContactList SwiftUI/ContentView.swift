@@ -11,14 +11,14 @@ struct ContentView: View {
     let contacts = Person.getContactList()
     
     var body: some View {
-        NavigationStack{
+        NavigationView{
             TabView {
                 ContactsView(contacts: contacts)
                     .tabItem {
                         Image(systemName: "person.3.fill")
                         Text("Contacts")
                     }
-                NumbersView()
+                NumbersView(contact: contacts)
                     .tabItem {
                         Image(systemName: "phone.fill")
                         Text("Numbers")
