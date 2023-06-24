@@ -16,7 +16,6 @@
 		9349173B2A4622A000FFC99D /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349173A2A4622A000FFC99D /* ContactsView.swift */; };
 		9349173D2A4622C000FFC99D /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349173C2A4622C000FFC99D /* ContactDetailsView.swift */; };
 		9349173F2A4622D000FFC99D /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349173E2A4622D000FFC99D /* NumbersView.swift */; };
-		934917412A4622F700FFC99D /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934917402A4622F700FFC99D /* ContactRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		9349173A2A4622A000FFC99D /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		9349173C2A4622C000FFC99D /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
 		9349173E2A4622D000FFC99D /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
-		934917402A4622F700FFC99D /* ContactRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 				9349172A2A45A26300FFC99D /* ContentView.swift */,
 				9349173C2A4622C000FFC99D /* ContactDetailsView.swift */,
 				9349173E2A4622D000FFC99D /* NumbersView.swift */,
-				934917402A4622F700FFC99D /* ContactRowView.swift */,
 				9349172C2A45A26500FFC99D /* Assets.xcassets */,
 				9349172E2A45A26500FFC99D /* Preview Content */,
 			);
@@ -161,7 +158,6 @@
 				9349173B2A4622A000FFC99D /* ContactsView.swift in Sources */,
 				9349173F2A4622D000FFC99D /* NumbersView.swift in Sources */,
 				9349173D2A4622C000FFC99D /* ContactDetailsView.swift in Sources */,
-				934917412A4622F700FFC99D /* ContactRowView.swift in Sources */,
 				934917292A45A26300FFC99D /* ContactList_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
