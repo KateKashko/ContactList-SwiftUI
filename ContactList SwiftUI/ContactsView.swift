@@ -16,6 +16,7 @@ struct ContactsView: View {
                 Text(contact.fullName)
             }
         }
+        .listStyle(.plain)
     }
 }
 
